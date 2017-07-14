@@ -2,7 +2,7 @@
     {
         "id": "ProjetoCPU",
         "titulo": "Projeto CPU",
-        "imagem": "img/cpu.png",
+        "imagem": "img/game.png",
         "descricao": "É um projeto arquitetural feito em ruby focado na modularização e execução de comandos pré-definidos.",
         "cliente": {
                         "nome": "Pedrodrim (projeto pessoal)",
