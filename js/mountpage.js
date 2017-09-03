@@ -26,4 +26,3 @@ var mountProjects = function(key){
 }
 
 mountProjects("projetos");
-mountProjects("experimentos");
