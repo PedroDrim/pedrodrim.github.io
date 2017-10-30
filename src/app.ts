@@ -9,6 +9,7 @@ import * as helmet from "helmet";
 import * as compression from "compression";
 import * as favicon from "serve-favicon";
 import * as errorHandler from "errorhandler";
+import * as firebase from "firebase";
 import * as cors from "cors";
 import { IndexRoute } from "./routes/index";
 // Import de Bibliotecas em javascript
@@ -100,7 +101,7 @@ export class Server {
     this.app.use(errorHandler());
 
     // Definindo porta
-    var port = this.normalizePort(process.env.PORT || '3001');
+    var port = this.normalizePort(process.env.PORT || '3000');
     this.app.set('port', port);
   }
 
@@ -125,8 +126,18 @@ export class Server {
   /**
    * Gerencia API's externas como banco de dados, por exemplo.
    */
-  private api() {
-    console.log("API's externas iniciadas");
+  private api() {    
+    var config = {
+        apiKey: "AIzaSyDEIhI7OJHHIF1peZsLXMlKTtZc0lmaOto",
+        authDomain: "pedrodrim-2c007.firebaseapp.com",
+        databaseURL: "https://pedrodrim-2c007.firebaseio.com",
+        projectId: "pedrodrim-2c007",
+        storageBucket: "",
+        messagingSenderId: "330192848678"
+      };
+    
+    firebase.initializeApp(config);
+    
   }
 
   private normalizePort(value: string | number): number {
