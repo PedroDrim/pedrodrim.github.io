@@ -1,0 +1,12 @@
+<% elementos.forEach(function(elemento){ %>
+    <div class="col-sm-4 portfolio-item">
+        <div class="portfolio-link" href="#<%= elemento.id %>" data-toggle="modal">
+            <div class="caption">
+                <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+            </div>
+            <img class="img-fluid" src="user/projetos/<%= elemento.imagem %>" alt="">
+        </div> 
+    </div>
+<% }); %>
