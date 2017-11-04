@@ -1,0 +1,15 @@
+# Arquivos de configuração
+node_modules/
+
+# Log's
+*.log
+npm-debug.log*
+
+# Dados de sistema
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diretório cache do node
+.npm
