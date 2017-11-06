@@ -1,4 +1,4 @@
-export default class Contact extends React.Component {
+export default class Contatos extends React.Component {
 
     constructor(props) {
         super();
@@ -7,6 +7,27 @@ export default class Contact extends React.Component {
     render() {
         return (
             <div>
+                <div class="col center-align s12">
+                    <div id="id-contatos" class="section scrollspy">
+                        <h4>Contato</h4>
+                    </div>
+                </div>
+
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Textarea</label>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        );
+    }
+}
+
+/**
                 <section id="contact">
                     <div class="container">
                         <h2 class="text-center">Contate-me</h2>
@@ -52,7 +73,4 @@ export default class Contact extends React.Component {
                         </div>
                     </div>
                 </section>
-            </div>
-        );
-    }
-}
+ */

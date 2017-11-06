@@ -1,26 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <title>Portfólio do Drim</title>
+<div>
 
     <!-- Carregando Material Icons do Google -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Carregando arquivos .css do MaterializeCSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    
+
+    <!-- Carregando arquivos .css do Materialize Social -->
+    <link rel="stylesheet" href="src/public/stylesheets/materialize-social.css">
+
+    <!-- Carregando arquivos .css do Porfolio -->
+    <link rel="stylesheet" href="src/public/stylesheets/portfolio.css">
+
+</div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfólio do Drim</title>
 </head>
 
 <body>
-
     <div id="app">
     </div>
+</body>
 
+<footer class="page-footer">
+    <div class="container">
+        <div class="row center-align">
+
+            <div class="col s12">
+                <h5>Onde estou</h5>
+            </div>
+
+            <div class="col l6 s12">
+                <p>Altitude: 841 metros</p>
+                <p>Latitude: -16.7399897</p>
+                <p>Longitude: -49.2613339</p>
+            </div>
+
+            <div class="col l4 offset-l2 s12">
+                <ul class="list-inline">
+                    <li>
+                        <a class="waves-effect waves-light btn-floating social github">
+                            <i class="fa fa-github"></i> Sign in with github</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light btn-floating social google">
+                            <i class="fa fa-google"></i> Sign in with Google+</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light btn-floating social twitter">
+                            <i class="fa fa-twitter"></i> Sign in with twitter</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light btn-floating social facebook">
+                            <i class="fa fa-facebook"></i> Sign in with facebook</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container center-align">
+            <a class="grey-text text-lighten-4" href="#!">© MIT licence 2017</a>
+        </div>
+    </div>
+
+</footer>
+
+<div>
     <!-- Carregando React e React-DOM -->
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
@@ -29,11 +84,14 @@
     <script src="src/public/scripts/bundle.js"></script>
 
     <!-- Carregando Jquery -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <!-- Carregando arquivos .js do MaterializeCSS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    
-</body>
+
+    <!-- Iniciando scripts da pagina -->
+    <script src="src/public/scripts/portfolio.js"></script>
+
+</div>
 
 </html>
