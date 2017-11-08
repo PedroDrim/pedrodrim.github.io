@@ -1,9 +1,15 @@
-import CardProjetos from "./card-projetos"
+import CardTemplate from "./card-template"
 
 export default class Projetos extends React.Component {
 
     constructor(props) {
         super();
+        this.state = {
+            picture: "src/public/projetos/images/game.png",
+            title: "Template",
+            summary: "Um exemplo de projeto",
+            fullText: "Descrição completa do projeto, devendo conter as ferramentas utilizadas, cliente, tempo e quaisquer outras informações que se julgue necessária."
+        }
     }
 
     render() {
@@ -12,16 +18,17 @@ export default class Projetos extends React.Component {
 
                 <div class="col center-align s12">
                     <div id="id-projetos" class="section scrollspy">
-                        <h4>Projetos</h4>
+                        <span class="flow-text green-text"><strong>Projetos</strong></span>
                     </div>
                 </div>
 
                 <div class="container">
-                    <CardProjetos />
-                    <CardProjetos />
-                    <CardProjetos />
+                    <CardTemplate card={this.state} />
+                    <CardTemplate card={this.state} />
+                    <CardTemplate card={this.state} />
+                    <CardTemplate card={this.state} />
                 </div>
-                
+
             </div>
         );
     }
