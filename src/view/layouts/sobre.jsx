@@ -27,12 +27,12 @@ export default class Sobre extends React.Component {
 
                     <div class="col center-align s12 m6 l6">
                         <p class="flow-text">
-                            Estagiário pela Embrapa - Arroz e feijão pelo doutor Alexandre Bryan Heinnemann durante 2 anos na área
+                            Estagiário pela Embrapa - Arroz e feijão pelo doutor Alexandre Bryan Heinnemann durante 2 anos e meio na área
                         de análise de dados e scripts de automação em R.
                         </p>
                         <p class="flow-text">
                             Estudante de graduação do curso Engenharia de software pela UFG, desenvolvedor back-end com foco em Java
-                        / Android, R / Shiny e Ruby.
+                        / Android, R / Shiny, e Ruby.
                         </p>
                     </div>
 
