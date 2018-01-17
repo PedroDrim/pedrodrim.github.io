@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "echo 'Comando nao disponivel'"
+    "start": "gulp"
   },
   "dependencies": {
     "nodejs": "0.0.0"

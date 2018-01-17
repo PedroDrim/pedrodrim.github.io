@@ -5,7 +5,7 @@ export default class Projetos extends React.Component {
     constructor(props) {
         super();
         this.state = {
-            picture: "src/public/projetos/images/game.png",
+            picture: "src/model/projetos/images/game.png",
             title: "Template",
             summary: "Um exemplo de projeto",
             fullText: "Descrição completa do projeto, devendo conter as ferramentas utilizadas, cliente, tempo e quaisquer outras informações que se julgue necessária."

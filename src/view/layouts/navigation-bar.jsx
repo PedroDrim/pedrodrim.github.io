@@ -28,8 +28,8 @@ export default class NavigationBar extends React.Component {
                                 <li id="list-artigos"><a href="#id-artigos">Artigos</a></li>
                                 <li id="list-contatos"><a href="#id-contatos">Contatos</a></li>
                             </ul>
+                            
                         </div>
-
                     </nav>
                 </div>
             </div>
