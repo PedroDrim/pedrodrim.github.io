@@ -9,7 +9,7 @@ export default class Contatos extends React.Component {
             <div>
                 <div class="col center-align s12">
                     <div id="id-contatos" class="section scrollspy">
-                        <span class="flow-text green-text">Contate-me</span>
+                        <span class="flow-text green-text"><strong>Contate-me</strong></span>
                     </div>
                 </div>
 
@@ -24,11 +24,11 @@ export default class Contatos extends React.Component {
 
                             <div class="input-field col s6">
                                 <input id="email_input" type="email" class="validate" name="email" />
-                                <label for="email_input">Email de resposta</label>
+                                <label for="email_input">Email para retorno</label>
                             </div>
 
                             <div class="input-field col s12">
-                                <textarea id="text_input" type="text" class="materialize-textarea" data-length="120" name="name" />
+                                <textarea id="text_input" type="text" class="materialize-textarea" name="name" />
                                 <label for="name_input">Mensagem</label>
                             </div>
 

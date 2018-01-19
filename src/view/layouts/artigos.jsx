@@ -4,15 +4,19 @@ export default class Artigos extends React.Component {
 
     constructor(props) {
         super();
-        this.state = {
-            picture: "src/public/projetos/images/cake.png",
-            title: "Template",
-            summary: "Um exemplo de artigo",
-            fullText: "Descrição completa do artigo, devendo conter as ferramentas utilizadas, dificuldade, tempo e quaisquer outras informações que se julgue necessária."
-        }
     }
 
     render() {
+
+        function arrayData(data){
+            var rows = [];
+                for (var i = 0; i < data.length; i++) {
+                    rows.push(<CardTemplate card={data[i]} />);
+                }
+    
+            return rows;
+        };
+
         return (
             <div>
 
@@ -23,10 +27,7 @@ export default class Artigos extends React.Component {
                 </div>
 
                 <div class="container">
-                    <CardTemplate card={this.state} />
-                    <CardTemplate card={this.state} />
-                    <CardTemplate card={this.state} />
-                    <CardTemplate card={this.state} />
+                    {arrayData(this.props.data)}                   
                 </div>
 
             </div>
