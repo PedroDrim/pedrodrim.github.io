@@ -18,7 +18,7 @@ export default class CardTemplate extends React.Component {
         return (
             <div>
                 <div class="col s12 l6">
-                    <div class="card">
+                    <div class="card z-depth-3">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src={this.props.card.imagem} />
                         </div>

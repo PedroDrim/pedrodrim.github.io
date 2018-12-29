@@ -23,14 +23,14 @@ export default class NavigationBar extends React.Component {
                     </nav>
 
                     <div class="fixed-action-btn hide-on-large-only">
-                        <a class="btn-floating btn-large red">
+                        <a class="btn-floating btn-large red pulse">
                             <i class="large material-icons">more_vert</i>
                         </a>
 
                         <ul>
-                            <li><a href="#id-sobre" class="btn-floating red"><i class="material-icons">person</i></a></li>
-                            <li><a href="#id-projetos" class="btn-floating green"><i class="material-icons">publish</i></a></li>
-                            <li><a href="#id-artigos" class="btn-floating blue"><i class="material-icons">create</i></a></li>
+                            <li id="btn-sobre"><a href="#id-sobre" class="btn-floating red"><i class="material-icons">person</i></a></li>
+                            <li id="btn-projetos"><a href="#id-projetos" class="btn-floating green"><i class="material-icons">apps</i></a></li>
+                            <li id="btn-artigos"><a href="#id-artigos" class="btn-floating blue"><i class="material-icons">create</i></a></li>
                         </ul>
                     </div>
         
