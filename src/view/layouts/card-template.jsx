@@ -5,6 +5,16 @@ export default class CardTemplate extends React.Component {
     }
 
     render() {
+
+        function addTagList(data) {
+            var rows = [];
+            for (var i = 0; i < data.length; i++) {
+                rows.push(<div class="chip">{data[i]} </div>);
+            }
+
+            return rows;
+        }
+
         return (
             <div>
                 <div class="col s12 l6">
@@ -14,6 +24,8 @@ export default class CardTemplate extends React.Component {
                         </div>
                         <div class="card-content">
                             <span class="card-title flow-text activator grey-text text-darken-4"><strong>{this.props.card.titulo}</strong><i class="material-icons right">more_vert</i></span>
+                            {addTagList(this.props.card.tags)}
+                            <br></br>
                             <span class="flow-text"><a href={this.props.card.url}>{this.props.card.resumo}</a></span>
                         </div>
                         <div class="card-reveal row">

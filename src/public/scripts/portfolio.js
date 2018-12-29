@@ -1,3 +1,5 @@
 $(document).ready(function () {
-    $('.parallax').parallax();
+    $('.sidenav').sidenav();
+    $('.tabs').tabs();
+    $('.fixed-action-btn').floatingActionButton();
 });
