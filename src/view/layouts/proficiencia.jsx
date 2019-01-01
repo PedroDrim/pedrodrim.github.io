@@ -15,17 +15,27 @@ export default class Proficiencia extends React.Component {
                 </div>
 
                 <div class="col center-align s12">
-                    <canvas id="grafico"></canvas>
-                </div>
-
-                <div class="col center-align s12">
-                    <ul class="pagination">
-                        <li class="waves-effect" id="bnt-back-end"><a href="#!">1</a></li>
-                        <li class="waves-effect" id="bnt-front-end"><a href="#!">2</a></li>
-                        <li class="waves-effect" id="bnt-tools"><a href="#!">3</a></li>
+                    <ul class="tabs">
+                        <li class="tab"><a href="#id-back-end">Back-End</a></li>
+                        <li class="tab"><a href="#id-front-end">Front-end</a></li>
+                        <li class="tab"><a href="#id-tools">Ferramentas</a></li>
                     </ul>
                 </div>
 
+                <div>
+                    <div class="id-back-end">
+                        <canvas id="grafico-back-end" />
+                    </div>
+                        
+                    <div class="id-front-end">
+                        <canvas id="grafico-front-end" />
+                    </div>
+
+                    <div class="id-tools">
+                        <canvas id="grafico-tools" />
+                    </div>
+                </div>
+                
             </div>
         );
     }

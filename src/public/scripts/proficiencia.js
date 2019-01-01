@@ -95,8 +95,8 @@ var getToolsParam = function() {
 }
 
 // Criar grafico funcional
-var createChar = function(data, options) {
-    var context = document.getElementById("grafico").getContext('2d');
+var createChar = function(id, data, options) {
+    var context = document.getElementById(id).getContext('2d');
     var chart = new Chart(context, {
         type: 'doughnut',
         data: data,
@@ -106,25 +106,10 @@ var createChar = function(data, options) {
     return(chart);
 }
 
-var startChart = function() {    
-    var id = this.id;
-    var params;
+var params_back_end = getBackEndParam();
+var params_front_end = getFrontEndParam();
+var params_tools = getToolsParam();
 
-    if(id == "bnt-back-end") {
-        params = getBackEndParam();
-    } else if(id == "bnt-front-end") {
-        params = getFrontEndParam();
-    } else {
-        params = getToolsParam();
-    }
-
-    createChar(params.data, params.options);
-}
-
-var bnt_back_end = document.getElementById("bnt-back-end");
-var bnt_front_end = document.getElementById("bnt-front-end");
-var bnt_tools = document.getElementById("bnt-tools");
-
-bnt_back_end.addEventListener('click', startChart, false);
-bnt_front_end.addEventListener('click', startChart, false);
-bnt_tools.addEventListener('click', startChart, false);
+createChar("grafico-back-end", params_back_end.data, params_back_end.options);
+createChar("grafico-front-end", params_front_end.data, params_front_end.options);
+createChar("grafico-tools", params_tools.data, params_tools.options);
