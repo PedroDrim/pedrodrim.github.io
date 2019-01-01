@@ -3,6 +3,7 @@ import Sobre from './sobre'
 import Projetos from './projetos'
 import Artigos from './artigos'
 import Contatos from './contatos'
+import Proficiencia from './proficiencia';
 
 export default class MainLayout extends React.Component {
 
@@ -95,13 +96,17 @@ export default class MainLayout extends React.Component {
                 <div class="row">
                     <NavigationBar />
                 </div>
+
                 <div class="row" id="id-sobre">
                     <Sobre />
+                    <Proficiencia />
                     <Contatos />
                 </div>
+                
                 <div class="row" id="id-projetos">
                     <Projetos data={this.state.projects}/>
                 </div>
+                
                 <div class="row" id="id-artigos">
                     <Artigos data={this.state.article}/>
                 </div>

@@ -1,10 +1,38 @@
+import Social from './social'
+
 export default class Localization extends React.Component {
 
     constructor(props) {
         super();
+        this.contact = [
+            {
+                media: "Github",
+                link: "http://github.com/pedrodrim/"
+            },
+
+            {
+                media: "Linkedin",
+                link: "http://github.com/pedrodrim/"
+            },
+
+            {
+                media: "Google",
+                link: "http://github.com/pedrodrim/"
+            }
+        ]
     }
 
     render() {
+
+        function arrayData(data){
+            var rows = [];
+                for (var i = 0; i < data.length; i++) {
+                    rows.push(<Social data={data[i]} />);
+                }
+    
+            return rows;
+        };
+
         return (
             <div class="container">
                 <div class="row center-align">
@@ -21,22 +49,7 @@ export default class Localization extends React.Component {
 
                     <div class="col l4 offset-l2 s12">
                         <ul class="list-inline">
-                            <li>
-                                <a class="waves-effect waves-light btn-floating social github">
-                                    <i class="fa fa-github"></i> Sign in with github</a>
-                            </li>
-                            <li>
-                                <a class="waves-effect waves-light btn-floating social google">
-                                    <i class="fa fa-google"></i> Sign in with Google+</a>
-                            </li>
-                            <li>
-                                <a class="waves-effect waves-light btn-floating social twitter">
-                                    <i class="fa fa-twitter"></i> Sign in with twitter</a>
-                            </li>
-                            <li>
-                                <a class="waves-effect waves-light btn-floating social facebook">
-                                    <i class="fa fa-facebook"></i> Sign in with facebook</a>
-                            </li>
+                            {arrayData(this.contact)}
                         </ul>
                     </div>
 

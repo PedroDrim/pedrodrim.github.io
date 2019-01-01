@@ -1,5 +1,7 @@
+// Inicializando materialize CSS
 M.AutoInit();
 
+// Construindo conexão entre abas
 var bnt_sobre = document.getElementById("btn-sobre");
 var bnt_projetos = document.getElementById("btn-projetos");
 var bnt_artigos = document.getElementById("btn-artigos");
