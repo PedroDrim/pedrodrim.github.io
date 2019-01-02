@@ -11,7 +11,7 @@ export default class NavigationBar extends React.Component {
                     <nav class="teal lighten-1">
                         <div class="nav-wrapper container">
 
-                            <a href="#id-navigationbar" class="brand-logo right"> PedroDrim </a>
+                            <a href="#id-navigationbar" id="maker" class="brand-logo right"> PedroDrim </a>
 
                             <ul class="tabs tabs-transparent hide-on-med-and-down">
                                 <li class="tab"><a href="#id-sobre">Sobre mim</a></li>

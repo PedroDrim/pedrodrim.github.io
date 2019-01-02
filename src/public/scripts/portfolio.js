@@ -17,3 +17,12 @@ var goToTab_portfolio = function() {
 bnt_sobre.addEventListener('click', goToTab_portfolio, false);
 bnt_projetos.addEventListener('click', goToTab_portfolio, false);
 bnt_artigos.addEventListener('click', goToTab_portfolio, false);
+
+var egg = document.getElementById("maker");
+
+var beMaker = function() {
+    var audio = new Audio('src/public/audio/title.mp3');
+    audio.play();
+}
+
+egg.addEventListener('click', beMaker, false);
