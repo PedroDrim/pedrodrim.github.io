@@ -21,6 +21,7 @@ bnt_artigos.addEventListener('click', goToTab_portfolio, false);
 var egg = document.getElementById("maker");
 
 var beMaker = function() {
+    this.id = "";
     var audio = new Audio('src/public/audio/title.mp3');
     audio.play();
 }
