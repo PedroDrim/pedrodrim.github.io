@@ -18,6 +18,11 @@ export default class Localization extends React.Component {
             {
                 media: "Google",
                 link: "http://github.com/pedrodrim/"
+            },
+
+            {
+                media: "Instagram",
+                link: "http://github.com/pedrodrim/"
             }
         ]
     }

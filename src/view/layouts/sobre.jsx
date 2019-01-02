@@ -9,6 +9,7 @@ export default class Sobre extends React.Component {
             <div class="container">
 
                     <div class="col center-align s12">
+                    
                         <div id="id-sobre" class="section scrollspy">
                             <span class="flow-text green-text"><strong>Sobre mim</strong></span>
                         </div>

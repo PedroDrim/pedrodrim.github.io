@@ -23,15 +23,15 @@ export default class Proficiencia extends React.Component {
                 </div>
 
                 <div>
-                    <div class="id-back-end">
+                    <div id="id-back-end" class="row s4">
                         <canvas id="grafico-back-end" />
                     </div>
                         
-                    <div class="id-front-end">
+                    <div id="id-front-end" class="row s4">
                         <canvas id="grafico-front-end" />
                     </div>
 
-                    <div class="id-tools">
+                    <div id="id-tools" class="row s4">
                         <canvas id="grafico-tools" />
                     </div>
                 </div>

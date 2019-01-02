@@ -3,7 +3,7 @@ import Sobre from './sobre'
 import Projetos from './projetos'
 import Artigos from './artigos'
 import Contatos from './contatos'
-import Proficiencia from './proficiencia';
+import Proficiencia from './proficiencia'
 
 export default class MainLayout extends React.Component {
 
