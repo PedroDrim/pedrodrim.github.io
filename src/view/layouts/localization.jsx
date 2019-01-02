@@ -4,27 +4,6 @@ export default class Localization extends React.Component {
 
     constructor(props) {
         super();
-        this.contact = [
-            {
-                media: "Github",
-                link: "http://github.com/pedrodrim/"
-            },
-
-            {
-                media: "Linkedin",
-                link: "http://github.com/pedrodrim/"
-            },
-
-            {
-                media: "Google",
-                link: "http://github.com/pedrodrim/"
-            },
-
-            {
-                media: "Instagram",
-                link: "http://github.com/pedrodrim/"
-            }
-        ]
     }
 
     render() {
@@ -43,18 +22,18 @@ export default class Localization extends React.Component {
                 <div class="row center-align">
 
                     <div class="col s12">
-                        <h5>Onde estou</h5>
+                        <h5>{GLOBAL_DATA.localization_mainName}</h5>
                     </div>
 
                     <div class="col l6 s12">
-                        <p>Altitude: 841 metros</p>
-                        <p>Latitude: -16.7399897</p>
-                        <p>Longitude: -49.2613339</p>
+                        <p>{GLOBAL_DATA.localization_position_editable.alt.label}: {GLOBAL_DATA.localization_position_editable.alt.value} {GLOBAL_DATA.localization_position_editable.alt.unity}</p>
+                        <p>{GLOBAL_DATA.localization_position_editable.lat.label}: {GLOBAL_DATA.localization_position_editable.lat.value}</p>
+                        <p>{GLOBAL_DATA.localization_position_editable.lon.label}: {GLOBAL_DATA.localization_position_editable.lon.value}</p>
                     </div>
 
                     <div class="col l4 offset-l2 s12">
                         <ul class="list-inline">
-                            {arrayData(this.contact)}
+                            {arrayData(GLOBAL_DATA.localization_social_media)}
                         </ul>
                     </div>
 

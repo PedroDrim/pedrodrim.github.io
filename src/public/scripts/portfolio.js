@@ -18,12 +18,15 @@ bnt_sobre.addEventListener('click', goToTab_portfolio, false);
 bnt_projetos.addEventListener('click', goToTab_portfolio, false);
 bnt_artigos.addEventListener('click', goToTab_portfolio, false);
 
-var egg = document.getElementById("maker");
+var maker = document.getElementById("maker");
 
 var beMaker = function() {
-    this.id = "";
-    var audio = new Audio('src/public/audio/title.mp3');
-    audio.play();
+    if(this.className != "be-maker") {
+        var audio = new Audio('src/public/audio/title.mp3');
+        audio.play();
+    }
+
+    this.className = "be-maker";
 }
 
-egg.addEventListener('click', beMaker, false);
+maker.addEventListener('click', beMaker, false);

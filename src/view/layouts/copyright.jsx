@@ -8,7 +8,7 @@ export default class Copyright extends React.Component {
         return (
             <div class="footer-copyright">
                 <div class="container center-align">
-                    <a class="grey-text text-lighten-4" href="#!">© MIT licence 2017</a>
+                    <a class="grey-text text-lighten-4" href="#!">{GLOBAL_DATA.copyright_name}</a>
                 </div>
             </div>
         );

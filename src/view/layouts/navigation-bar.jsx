@@ -11,12 +11,14 @@ export default class NavigationBar extends React.Component {
                     <nav class="teal lighten-1">
                         <div class="nav-wrapper container">
 
-                            <a href="#id-navigationbar" id="maker" class="brand-logo right"> PedroDrim </a>
+                            <div id="maker">
+                                <a href="#id-navigationbar" class="brand-logo right"> {GLOBAL_DATA.navbar_mainName} </a>
+                            </div>
 
                             <ul class="tabs tabs-transparent hide-on-med-and-down">
-                                <li class="tab"><a href="#id-sobre">Sobre mim</a></li>
-                                <li class="tab"><a href="#id-projetos">Projetos</a></li>
-                                <li class="tab"><a href="#id-artigos">Artigos</a></li>
+                                <li class="tab"><a href="#id-sobre">{GLOBAL_DATA.navbar_tab_about}</a></li>
+                                <li class="tab"><a href="#id-projetos">{GLOBAL_DATA.navbar_tab_projects}</a></li>
+                                <li class="tab"><a href="#id-artigos">{GLOBAL_DATA.navbar_tab_articles}</a></li>
                             </ul>
 
                         </div>
