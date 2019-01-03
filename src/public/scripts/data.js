@@ -1,5 +1,3 @@
-console.log(navigator.userAgent);
-
 var httpGet = function(theUrl) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request

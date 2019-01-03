@@ -104,11 +104,11 @@ export default class MainLayout extends React.Component {
                 </div>
                 
                 <div class="row" id="id-projetos">
-                    <Projetos data={this.state.projects}/>
+                    <Projetos />
                 </div>
                 
                 <div class="row" id="id-artigos">
-                    <Artigos data={this.state.article}/>
+                    <Artigos />
                 </div>
             </div>
         );

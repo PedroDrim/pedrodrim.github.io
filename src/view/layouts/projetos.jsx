@@ -22,12 +22,12 @@ export default class Projetos extends React.Component {
 
                 <div class="col center-align s12">
                     <div id="id-projetos" class="section scrollspy">
-                        <span class="flow-text green-text"><strong>Projetos</strong></span>
+                        <span class="flow-text green-text"><strong>{GLOBAL_DATA.navbar_tab_projects}</strong></span>
                     </div>
                 </div>
 
                 <div class="container">
-                    {arrayData(this.props.data)}                    
+                    {arrayData(GLOBAL_DATA.projects)}                    
                 </div>
 
             </div>
