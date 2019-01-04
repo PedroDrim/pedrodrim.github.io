@@ -8,14 +8,15 @@ export default class Social extends React.Component {
 
         function getMedia(media){
             media = media.toLowerCase();
-            var resposta = ["fa fa-" + media, "waves-effect waves-light btn-floating social " + media];
+            var resposta = ["waves-effect waves-light btn btn-floating indigo", "logo-" + media];
             return(resposta);            
         }
 
         return (
             <li>
-                <a href={this.props.data.link} class={getMedia(this.props.data.media)[1]}>
-                    <i class={getMedia(this.props.data.media)[0]}></i> Me siga no {this.props.data.media}</a>
+                <a href={this.props.data.link} class={getMedia(this.props.data.media)[0]}>
+                    <ion-icon class="large" name={getMedia(this.props.data.media)[1]}></ion-icon>
+                </a>
             </li>                
         );
     }
