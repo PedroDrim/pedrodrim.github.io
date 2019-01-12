@@ -66,10 +66,10 @@ var getToolsParam = function(isMobile) {
     var legend_option = isMobile? {display: false} : {position: 'top'}
     var params = {
         data: {
-            labels: ['Firebase', 'Git', 'MySQL', 'MongoDB'],
+            labels: ['Firebase', 'Git', 'MySQL', 'MongoDB', 'Docker', 'CI'],
             datasets: [{
-                data: [9.0, 8.5, 8.5, 7.0],
-                backgroundColor: ["#f38b4a", "#56d798", "#ff8397", "#6970d5"],
+                data: [9.0, 8.5, 8.5, 7.0, 7.0, 8.0],
+                backgroundColor: ["#f38b4a", "#56d798", "#ff8397", "#6970d5", "#ff6384", "#ffa726"],
                 label: 'Tools'
             }]
         },
@@ -94,6 +94,7 @@ var getToolsParam = function(isMobile) {
 // Criar grafico funcional
 var createChar = function(id, data, options) {
     var context = document.getElementById(id).getContext('2d');
+    
     var chart = new Chart(context, {
         type: 'doughnut',
         data: data,
