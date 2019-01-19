@@ -16,16 +16,19 @@ export default class Contatos extends React.Component {
                         <div class="row">
 
                             <div class="input-field col s6">
+                            <i class="material-icons prefix">title</i>
                                 <input id="title_input" type="text" class="validate" name="title" />
                                 <label for="title_input">{GLOBAL_DATA.contatos_title}</label>
                             </div>
 
                             <div class="input-field col s6">
+                            <i class="material-icons prefix">email</i>
                                 <input id="email_input" type="email" class="validate" name="email" />
                                 <label for="email_input">{GLOBAL_DATA.contatos_email}</label>
                             </div>
 
                             <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
                                 <textarea id="text_input" type="text" class="materialize-textarea" name="name" />
                                 <label for="name_input">{GLOBAL_DATA.contatos_message}</label>
                             </div>
