@@ -1,3 +1,5 @@
+import LogoText from "./logo-text";
+
 export default class Contatos extends React.Component {
 
     constructor(props) {
@@ -7,11 +9,7 @@ export default class Contatos extends React.Component {
     render() {
         return (
             <div>
-                <div class="col center-align s12">
-                    <div id="id-contatos" class="section scrollspy">
-                        <span class="flow-text secondary-text"><strong>Contate-me</strong></span>
-                    </div>
-                </div>
+                <LogoText id="id_contatos" text={GLOBAL_DATA.contatos_mainName}/>
 
                 <div class="container">
                     <form action="https://formspree.io/pedrohenriquedrim@gmail.com" method="POST">
@@ -19,7 +17,7 @@ export default class Contatos extends React.Component {
 
                             <div class="input-field col s6">
                                 <input id="title_input" type="text" class="validate" name="title" />
-                                <label for="title_input">{GLOBAL_DATA.contatos_mainName}</label>
+                                <label for="title_input">{GLOBAL_DATA.contatos_title}</label>
                             </div>
 
                             <div class="input-field col s6">

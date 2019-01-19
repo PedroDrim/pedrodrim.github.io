@@ -7,3 +7,4 @@ var httpGet = function(theUrl) {
 }
 
 var GLOBAL_DATA = httpGet("https://pedrodrim-2c007.firebaseio.com/data/pt-br.json");
+//console.log(JSON.stringify(GLOBAL_DATA));

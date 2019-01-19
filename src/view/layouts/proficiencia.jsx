@@ -1,3 +1,5 @@
+import LogoText from "./logo-text"
+
 export default class Proficiencia extends React.Component {
 
     constructor(props) {
@@ -8,11 +10,7 @@ export default class Proficiencia extends React.Component {
         return (
             <div class="container">
 
-                <div class="col center-align s12">
-                    <div id="id-sobre" class="section scrollspy">
-                        <span class="flow-text secondary-text"><strong>{GLOBAL_DATA.proficiencia_mainName}</strong></span>
-                    </div>
-                </div>
+                <LogoText id="id_sobre" text={GLOBAL_DATA.proficiencia_mainName}/>
 
                 <div class="col center-align s12">
                     <ul class="tabs">

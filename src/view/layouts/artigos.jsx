@@ -1,4 +1,5 @@
 import CardTemplate from "./card-template"
+import LogoText from "./logo-text";
 
 export default class Artigos extends React.Component {
 
@@ -19,12 +20,7 @@ export default class Artigos extends React.Component {
 
         return (
             <div>
-
-                <div class="col center-align s12">
-                    <div id="id-artigos" class="section scrollspy">
-                        <span class="flow-text secondary-text"><strong>{GLOBAL_DATA.navbar_tab_articles}</strong></span>
-                    </div>
-                </div>
+                <LogoText id="id_artigos" text={GLOBAL_DATA.navbar_tab_articles}/>
 
                 <div class="container">
                     {arrayData(GLOBAL_DATA.articles)}                   
