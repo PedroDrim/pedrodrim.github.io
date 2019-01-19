@@ -22,7 +22,7 @@ export default class Artigos extends React.Component {
 
                 <div class="col center-align s12">
                     <div id="id-artigos" class="section scrollspy">
-                        <span class="flow-text green-text"><strong>{GLOBAL_DATA.navbar_tab_artigos}</strong></span>
+                        <span class="flow-text secondary-text"><strong>{GLOBAL_DATA.navbar_tab_articles}</strong></span>
                     </div>
                 </div>
 

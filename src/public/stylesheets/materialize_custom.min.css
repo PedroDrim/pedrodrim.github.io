@@ -2,7 +2,58 @@
  * Materialize v0.100.2 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
+ * https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=546E7A&secondary.color=81C784
  */
+
+
+ 
+.primary {
+    background-color: #546e7a !important
+}
+
+.primary-text {
+    color: #546e7a !important
+}
+
+.primary-light {
+    background-color: #819ca9 !important
+}
+
+.primary-light-text {
+    color: #819ca9 !important
+}
+
+.primary-dark {
+    background-color: #29434e !important
+}
+
+.primary-dark-text {
+    color: #29434e !important
+}
+
+.secondary {
+    background-color: #81c784 !important
+}
+
+.secondary-text {
+    color: #81c784 !important
+}
+
+.secondary-light {
+    background-color: #b2fab4 !important
+}
+
+.secondary-light-text {
+    color: #b2fab4 !important
+}
+
+.secondary-dark {
+    background-color: #519657 !important
+}
+
+.secondary-dark-text {
+    color: #519657 !important
+}
 
 .black {
     background-color: #000 !important
@@ -34,7 +85,7 @@
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
 }
 
 body {

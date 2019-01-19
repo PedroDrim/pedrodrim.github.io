@@ -9,7 +9,7 @@ export default class Contatos extends React.Component {
             <div>
                 <div class="col center-align s12">
                     <div id="id-contatos" class="section scrollspy">
-                        <span class="flow-text green-text"><strong>Contate-me</strong></span>
+                        <span class="flow-text secondary-text"><strong>Contate-me</strong></span>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ export default class Contatos extends React.Component {
                                 <label for="name_input">{GLOBAL_DATA.contatos_message}</label>
                             </div>
 
-                            <button class="btn waves-effect waves-light" type="submit" value="send">{GLOBAL_DATA.contatos_btn_send}
+                            <button class="btn waves-effect waves-light secondary" type="submit" value="send">{GLOBAL_DATA.contatos_btn_send}
                                 <i class="material-icons right">send</i>
                             </button>
 

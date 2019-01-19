@@ -8,7 +8,7 @@ export default class Social extends React.Component {
 
         function getMedia(media){
             media = media.toLowerCase();
-            var resposta = ["waves-effect waves-light btn btn-floating indigo", "logo-" + media];
+            var resposta = ["waves-effect waves-light btn btn-floating secondary-dark", "logo-" + media];
             return(resposta);            
         }
 
