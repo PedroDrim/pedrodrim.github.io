@@ -8,17 +8,18 @@ export default class NavigationBar extends React.Component {
         return (
             <div id="id-navigationbar">
                 <div class="nav-extended navbar-fixed">
+                    
                     <nav class="primary">
                         <div class="nav-wrapper container">
 
                             <div id="maker">
-                                <a href="#id-navigationbar" class="brand-logo right"> {GLOBAL_DATA.navbar_mainName} </a>
+                                <a href="#id-navigationbar" class="brand-logo right"> {GLOBAL_DATA.navbar.navbar_mainName} </a>
                             </div>
 
                             <ul class="tabs tabs-transparent hide-on-med-and-down">
-                                <li class="tab"><a href="#id-sobre">{GLOBAL_DATA.navbar_tab_about}</a></li>
-                                <li class="tab"><a href="#id-projetos">{GLOBAL_DATA.navbar_tab_projects}</a></li>
-                                <li class="tab"><a href="#id-artigos">{GLOBAL_DATA.navbar_tab_articles}</a></li>
+                                <li class="tab"><a href="#id-sobre">{GLOBAL_DATA.navbar.navbar_tab_about}</a></li>
+                                <li class="tab"><a href="#id-professional">{GLOBAL_DATA.navbar.navbar_tab_professional}</a></li>
+                                <li class="tab"><a href="#id-personal">{GLOBAL_DATA.navbar.navbar_tab_personal}</a></li>
                             </ul>
 
                         </div>
@@ -26,13 +27,13 @@ export default class NavigationBar extends React.Component {
 
                     <div class="fixed-action-btn hide-on-large-only">
                         <a class="btn-floating btn-large secondary-dark pulse">
-                            <i class="large material-icons">more_vert</i>
+                            <i class="large material-icons fas fa-ellipsis-v"></i>
                         </a>
 
                         <ul>
                             <li id="btn-sobre"><a href="#id-sobre" class="btn-floating secondary-dark"><i class="material-icons">person</i></a></li>
-                            <li id="btn-projetos"><a href="#id-projetos" class="btn-floating secondary-dark"><i class="material-icons">apps</i></a></li>
-                            <li id="btn-artigos"><a href="#id-artigos" class="btn-floating secondary-dark"><i class="material-icons">create</i></a></li>
+                            <li id="btn-professional"><a href="#id-professional" class="btn-floating secondary-dark"><i class="material-icons">apps</i></a></li>
+                            <li id="btn-personal"><a href="#id-personal" class="btn-floating secondary-dark"><i class="material-icons">create</i></a></li>
                         </ul>
                     </div>
         

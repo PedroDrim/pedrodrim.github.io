@@ -10,13 +10,13 @@ export default class Proficiencia extends React.Component {
         return (
             <div class="container">
 
-                <LogoText id="id_sobre" text={GLOBAL_DATA.proficiencia_mainName}/>
+                <LogoText id="id_sobre" text={GLOBAL_DATA.proficiencia.proficiencia_mainName}/>
 
                 <div class="col center-align s12">
                     <ul class="tabs">
-                        <li class="tab"><a href="#id-back-end" class="secondary-text">{GLOBAL_DATA.proficiencia_tab_backEnd}</a></li>
-                        <li class="tab"><a href="#id-front-end" class="secondary-text">{GLOBAL_DATA.proficiencia_tab_frontEnd}</a></li>
-                        <li class="tab"><a href="#id-tools" class="secondary-text">{GLOBAL_DATA.proficiencia_tab_tools}</a></li>
+                        <li class="tab"><a href="#id-back-end" class="secondary-text">{GLOBAL_DATA.proficiencia.proficiencia_tab_backEnd}</a></li>
+                        <li class="tab"><a href="#id-front-end" class="secondary-text">{GLOBAL_DATA.proficiencia.proficiencia_tab_frontEnd}</a></li>
+                        <li class="tab"><a href="#id-tools" class="secondary-text">{GLOBAL_DATA.proficiencia.proficiencia_tab_tools}</a></li>
                     </ul>
                 </div>
 

@@ -20,7 +20,7 @@ export default class Sobre extends React.Component {
 
         return (
             <div class="container">
-                <LogoText id="id_sobre" text={GLOBAL_DATA.navbar_tab_about}/>
+                <LogoText id="id_sobre" text={GLOBAL_DATA.navbar.navbar_tab_about}/>
                 {arrayData(GLOBAL_DATA.sobre)}
             </div>
         );

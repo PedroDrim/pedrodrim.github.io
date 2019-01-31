@@ -1,7 +1,7 @@
 import NavigationBar from './navigation-bar'
 import Sobre from './sobre'
-import Projetos from './projetos'
-import Artigos from './artigos'
+import Professional from './professional'
+import Personal from './personal'
 import Contatos from './contatos'
 import Proficiencia from './proficiencia'
 
@@ -24,12 +24,12 @@ export default class MainLayout extends React.Component {
                     <Contatos />
                 </div>
                 
-                <div class="row" id="id-projetos">
-                    <Projetos />
+                <div class="row" id="id-professional">
+                    <Professional />
                 </div>
                 
-                <div class="row" id="id-artigos">
-                    <Artigos />
+                <div class="row" id="id-personal">
+                    <Personal />
                 </div>
             </div>
         );

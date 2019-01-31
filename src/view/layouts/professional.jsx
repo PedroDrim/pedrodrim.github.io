@@ -1,7 +1,7 @@
 import CardTemplate from "./card-template"
-import LogoText from "./logo-text";
+import LogoText from "./logo-text"
 
-export default class Artigos extends React.Component {
+export default class Professional extends React.Component {
 
     constructor(props) {
         super();
@@ -20,10 +20,10 @@ export default class Artigos extends React.Component {
 
         return (
             <div>
-                <LogoText id="id_artigos" text={GLOBAL_DATA.navbar_tab_articles}/>
+                <LogoText id="id_professional" text={GLOBAL_DATA.navbar.navbar_tab_professional}/>
 
                 <div class="container">
-                    {arrayData(GLOBAL_DATA.articles)}                   
+                    {arrayData(GLOBAL_DATA.professional_projects)}                    
                 </div>
 
             </div>

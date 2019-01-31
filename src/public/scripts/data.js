@@ -7,6 +7,6 @@ var httpGet = function(theUrl) {
 }
 
 var lang = navigator.language || navigator.userLanguage;
-var tag = lang.match("pt")? "pt-br" : "en";
+var tag = "pt";//lang.match("pt")? "pt-br" : "en";
 var GLOBAL_DATA = httpGet("https://pedrodrim-2c007.firebaseio.com/data/" + tag + ".json");
 //console.log(JSON.stringify(GLOBAL_DATA));
