@@ -28,7 +28,7 @@ export default class CardTemplate extends React.Component {
 
                     <div class="card-image">
                         <img src={optmizeImage(this.props.card.image_png, this.props.card.image_webp)} />
-                        <a class="btn-floating halfway-fab waves-effect waves-light secondary modal-trigger" href={"#" + this.props.card.title}>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href={"#" + this.props.card.title}>
                             <i class="material-icons fas fa-eye"></i>
                         </a>
                     </div>

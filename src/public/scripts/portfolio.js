@@ -22,8 +22,7 @@ var maker = document.getElementById("maker");
 
 var beMaker = () => {
     if(this.className != "be-maker") {
-        var audio = new Audio('src/public/audio/title.mp3');
-        audio.play();
+        
     }
 
     this.className = "be-maker";

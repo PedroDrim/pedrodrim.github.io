@@ -13,7 +13,7 @@ export default class LogoText extends React.Component {
                     </div>
 
                     <div class="col s12">
-                        <img src="favicon/favicon-16x16.png" class="responsive-img" />
+                        <img src="src/public/images/divider.png" class="responsive-img" />
                     </div>
                 </div>
             </div>

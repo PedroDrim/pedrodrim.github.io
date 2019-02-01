@@ -1,3 +1,5 @@
+import Maker from './maker'
+
 export default class NavigationBar extends React.Component {
 
     constructor(props) {
@@ -12,9 +14,7 @@ export default class NavigationBar extends React.Component {
                     <nav class="primary">
                         <div class="nav-wrapper container">
 
-                            <div id="maker">
-                                <a href="#id-navigationbar" class="brand-logo right"> {GLOBAL_DATA.navbar.navbar_mainName} </a>
-                            </div>
+                            <Maker />
 
                             <ul class="tabs tabs-transparent hide-on-med-and-down">
                                 <li class="tab"><a href="#id-sobre">{GLOBAL_DATA.navbar.navbar_tab_about}</a></li>
@@ -26,7 +26,7 @@ export default class NavigationBar extends React.Component {
                     </nav>
 
                     <div class="fixed-action-btn hide-on-large-only">
-                        <a class="btn-floating btn-large secondary-dark pulse">
+                        <a class="btn-floating btn-large red pulse">
                             <i class="large material-icons fas fa-ellipsis-v"></i>
                         </a>
 
