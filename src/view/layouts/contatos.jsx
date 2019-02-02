@@ -9,7 +9,7 @@ export default class Contatos extends React.Component {
     render() {
         return (
             <div>
-                <LogoText id="id_contatos" text={GLOBAL_DATA.contatos.contatos_mainName}/>
+                <LogoText id="id_contatos" text={GLOBAL_DATA.contatos.contatos_mainName} logo={GLOBAL_DATA.logo}/>
 
                 <div class="container">
                     
@@ -47,8 +47,8 @@ export default class Contatos extends React.Component {
 
                     <div class="hide-on-large-only">
                         <div class="center-align">
-                            <a class="btn waves-effect waves-light secondary" href="mailto:pedrohenriquedrim@gmail.com">{GLOBAL_DATA.contatos.contatos_btn_send}
-                                <i class="material-icons right fas fa-paper-plane"></i>
+                            <a class="btn-floating btn-large waves-effect waves-light secondary" href="mailto:pedrohenriquedrim@gmail.com">
+                                <i class="material-icons right fas fa-comments"></i>
                             </a>
                         </div>
                     </div>

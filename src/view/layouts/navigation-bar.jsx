@@ -31,9 +31,9 @@ export default class NavigationBar extends React.Component {
                         </a>
 
                         <ul>
-                            <li id="btn-sobre"><a href="#id-sobre" class="btn-floating secondary-dark"><i class="material-icons">person</i></a></li>
-                            <li id="btn-professional"><a href="#id-professional" class="btn-floating secondary-dark"><i class="material-icons">apps</i></a></li>
-                            <li id="btn-personal"><a href="#id-personal" class="btn-floating secondary-dark"><i class="material-icons">create</i></a></li>
+                            <li id="btn-sobre"><a href="#id-sobre" class="btn-floating secondary-dark"><i class="material-icons fas fa-address-card"></i></a></li>
+                            <li id="btn-professional"><a href="#id-professional" class="btn-floating secondary-dark"><i class="material-icons fas fa-comment-dollar"></i></a></li>
+                            <li id="btn-personal"><a href="#id-personal" class="btn-floating secondary-dark"><i class="material-icons fas fa-comment-dots"></i></a></li>
                         </ul>
                     </div>
         

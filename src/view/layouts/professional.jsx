@@ -20,7 +20,7 @@ export default class Professional extends React.Component {
 
         return (
             <div>
-                <LogoText id="id_professional" text={GLOBAL_DATA.navbar.navbar_tab_professional}/>
+                <LogoText id="id_professional" text={GLOBAL_DATA.navbar.navbar_tab_professional} logo={GLOBAL_DATA.logo}/>
 
                 <div class="container">
                     {arrayData(GLOBAL_DATA.professional_projects)}                    

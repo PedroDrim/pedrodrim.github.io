@@ -1,3 +1,5 @@
+import CardContent from "./card-content"
+
 export default class CardTemplate extends React.Component {
 
     constructor(props) {
@@ -22,6 +24,15 @@ export default class CardTemplate extends React.Component {
             return(image);
         }
 
+        function arrayData(data){
+            var rows = [];
+                for (var i = 0; i < data.length; i++) {
+                    rows.push(<CardContent text={data[i]} />);
+                }
+    
+            return rows;
+        };
+
         return (
             <div class="col s12 l6">
                 <div class="card z-depth-3">
@@ -37,14 +48,18 @@ export default class CardTemplate extends React.Component {
                         <span class="card-title flow-text activator secondary-dark-text">
                             <strong>{this.props.card.title}</strong>
                         </span>
+
                         {addTagList(this.props.card.tags)}
                         <br></br>
-                        <span class="flow-text"><a href={this.props.card.url}>{this.props.card.summary}</a></span>
+                        
+                        <span class="flow-text"><a href={this.props.card.url}>{this.props.card.subtitle}</a></span>
                     </div>
 
                     <div id={this.props.card.title} class="modal">
                         <div class="modal-content">
-                            <span class="flow-text">{this.props.card.description}</span>
+                            <div class="row">
+                                {arrayData(this.props.card.description)}
+                            </div>
                         </div>
                     </div>
 

@@ -10,7 +10,7 @@ export default class Proficiencia extends React.Component {
         return (
             <div class="container">
 
-                <LogoText id="id_sobre" text={GLOBAL_DATA.proficiencia.proficiencia_mainName}/>
+                <LogoText id="id_sobre" text={GLOBAL_DATA.proficiencia.proficiencia_mainName} logo={GLOBAL_DATA.logo}/>
 
                 <div class="col center-align s12">
                     <ul class="tabs">

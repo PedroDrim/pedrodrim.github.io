@@ -20,7 +20,7 @@ export default class Personal extends React.Component {
 
         return (
             <div>
-                <LogoText id="id_personal" text={GLOBAL_DATA.navbar.navbar_tab_personal}/>
+                <LogoText id="id_personal" text={GLOBAL_DATA.navbar.navbar_tab_personal} logo={GLOBAL_DATA.logo}/>
 
                 <div class="container">
                     {arrayData(GLOBAL_DATA.personal_projects)}                   
