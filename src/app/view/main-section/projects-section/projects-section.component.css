@@ -1,0 +1,22 @@
+section {
+    min-height: 100vh;
+    padding: 10rem 12%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 7rem;
+    margin: 5rem 0;
+}
+
+.projects {
+    background-color: var(--second-bg-color);
+}
+
+.projects-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    place-items: center;
+    gap: 3rem;
+    row-gap: 5rem;
+}

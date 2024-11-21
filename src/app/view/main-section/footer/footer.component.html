@@ -1,0 +1,11 @@
+<footer class="footer">
+  <div class="social-icons">
+    @for(instance of socialList; track instance.icon) {
+    <app-social-icon [socialdom]="instance"></app-social-icon>
+    }
+  </div>
+
+  <p class="copyright">
+    MIT License
+  </p>
+</footer>
