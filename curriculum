@@ -39,60 +39,73 @@ Descrição das principais responsabilidades e conquistas no cargo.
 
 ## Formação Acadêmica
 
-### **Nome do Curso | Nome da Instituição**  
-*MM/AAAA – MM/AAAA*  
-Breve descrição do curso, se relevante.
-
-### **Nome do Curso | Nome da Instituição**  
-*MM/AAAA – MM/AAAA*  
-Breve descrição do curso, se relevante.
+### **Engenharia de Software | UFG**  
+*01/2013 – 01/2019*  
+Área responsavel por desenvolver softwares de qualidade seguindo normas (ex. ISO-12207) e padrões (MPSBR e CMMI).
 
 ---
 
 ## Habilidades Técnicas
 
-- **Linguagens de Programação**: Python, JavaScript, Java, C++, etc.  
-- **Ferramentas**: Git, Docker, Kubernetes, etc.  
-- **Softwares**: Microsoft Office, Google Suite, etc.  
-- **Outras Habilidades**: Análise de Dados, Design, Gestão de Projetos, etc.
+- **Linguagens de Programação**: Python, JavaScript / Typescript, Java, Kotlin, Scala, Ruby, C#, C, R, Rust e Golang.  
+- **Ferramentas**: Git, Docker, Docker-Compose, Angular, React, Firebase, Angular Material, MaterializeCSS, Bootstrap, Bun, Java-Android.  
+- **Softwares**: DSSAT - Agricultura, Kanban, Trello.  
+- **Outras Habilidades**: Análise de Dados, Gestão de Projetos, Levantamento de Requisitos, Arquitetura de Software, Testes automatizados, Desenvolvimento de Jogos, Microsserviços.
 
 ---
 
 ## Projetos
 
-### **Nome do Projeto**  
-Descrição breve do projeto, tecnologias utilizadas, e sua contribuição para o mesmo.  
-- Link para o repositório ou demonstração, se aplicável.
+### **Benchmark Languages** - Pessoal 
+Projeto pessoal para aprendizado de novas linguagens de programação e comparando seus desempenhos de forma automatizada.  
+- https://github.com/PedroDrim/Benchmark-Languages
 
-### **Nome do Projeto**  
-Descrição breve do projeto, tecnologias utilizadas, e sua contribuição para o mesmo.  
-- Link para o repositório ou demonstração, se aplicável.
+### **pedrodrim.github.io - Portfolio pessoal**  
+Portfólio de projetos realizados - Em atualização.  
+- https://github.com/PedroDrim/pedrodrim.github.io
 
+### **Calibration Dssat**  
+Ferramenta para otimização de parametros fenotípicos do modelo DSSAT, por meio de Algoritmos genéticos. **Artigo em breve**. 
+- https://github.com/PedroDrim/ga-calibration-dssat
+
+### **Calibration Dssat**  
+Ferramenta para otimização de parametros fenotípicos do modelo DSSAT, por meio de Buscas binárias. Desenvolvido durante o estágio. 
+- https://github.com/PedroDrim/Analise-fenotipica-DSSAT
+
+### **The Trader**
+Ferramenta para estudo e análise do mercado de ações. Feito em **R** com o framework **Shiny**. - Em atualização.
+- https://github.com/PedroDrim/The-Trader
+
+https://github.com/PedroDrim/planejeinsumos
+https://github.com/PedroDrim/Quick-List
+https://github.com/PedroDrim/MyBuilder
 ---
 
 ## Idiomas
 
-- **[Idioma]** – [Nível de proficiência]  
-- **[Idioma]** – [Nível de proficiência]
+- **Português - Br** – Nativo  
+- **Inglês** – Avançado
+- **Espanhol** - Básico
 
 ---
 
 ## Certificados
 
-- **[Nome do Certificado]** – [Instituição] – [MM/AAAA]  
-- **[Nome do Certificado]** – [Instituição] – [MM/AAAA]
+- **Graduação em Engenharia de Software - Bacharelado** – UFG – 01-2019  
+- **Curso de idiomas - Inglês** – UFG – 11-2018  
+- **Inteligência artificial, do básico ao avançado** – Udemy – **Cursando**
 
 ---
 
 ## Voluntariado (opcional)
 
-### **Função | Nome da Organização**  
-*MM/AAAA – MM/AAAA*  
-Breve descrição das atividades realizadas.
+### *Ajudante* | ONG para adoção de caẽs e gatos**  
+*03/2023 – 04/2023*  
+Ajudava na organização de uma feira de adoção aos sábados em São Paulo.
 
 ---
 
 ## Referências (opcional)
 
-Disponíveis mediante solicitação.
+**Á adicionar**.
 
