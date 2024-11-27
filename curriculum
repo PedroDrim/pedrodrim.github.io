@@ -76,9 +76,22 @@ Ferramenta para otimização de parametros fenotípicos do modelo DSSAT, por mei
 Ferramenta para estudo e análise do mercado de ações. Feito em **R** com o framework **Shiny**. - Em atualização.
 - https://github.com/PedroDrim/The-Trader
 
-https://github.com/PedroDrim/planejeinsumos
-https://github.com/PedroDrim/Quick-List
-https://github.com/PedroDrim/MyBuilder
+### **Planeje Insumos**
+MVP de startup para levantamento de preços em insumos agrícolas. - Parado.
+- https://github.com/PedroDrim/planejeinsumos
+
+### **Quick List**
+Projeto pessoal de estudo de ferramentas de desenvolvimento, REST e testes automatizados. CRUD de uma lista interna por meio de requisiçoes.
+- https://github.com/PedroDrim/Quick-List
+
+### **My Builder**
+Projeto pessoal de estudo de ferramentas de desenvolvimento, REST, Autenticação e Firebase. CRUD de Hash's baseado em imagens.
+- https://github.com/PedroDrim/MyBuilder
+
+### **Personal Bot**
+Bot simples em Ruby para automatizar meus primeiros minutos do dia.
+- https://github.com/PedroDrim/Personal-Bot
+
 ---
 
 ## Idiomas
