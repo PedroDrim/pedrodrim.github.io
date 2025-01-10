@@ -1,7 +1,3 @@
-Here is the translation of the text into English:
-
----
-
 # Description
 
 | Name | Age | Location |
@@ -227,7 +223,3 @@ Simple bot in Ruby to automate my first minutes of the day.
 - **Bachelor’s in Software Engineering** – UFG – 01-2019  
 - **Language Course - English** – UFG – 11-2018  
 - **Artificial Intelligence, from Basics to Advanced** – Udemy – **In progress**
-
----
-
-Let me know if you need further adjustments!
