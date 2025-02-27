@@ -1,9 +1,0 @@
-<section class="projects" id="projects">
-    <h2 class="heading">Projects</h2>
-
-    <div class="projects-box">
-        @for (instance of projectList; track instance.title) {
-            <app-project-description [projectdom]="instance"></app-project-description>
-        }
-    </div>
-</section>
