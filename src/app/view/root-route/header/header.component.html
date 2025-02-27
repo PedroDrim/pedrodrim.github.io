@@ -1,0 +1,14 @@
+<header class="header">
+    <a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page" class="logo">Pedro <span>Drim</span></a>
+
+    <!-- Menu de mobile -->
+    <fa-icon [icon]="iconSidenav" id="menu-icon" (click)="swapActive()"></fa-icon>
+
+    <nav [classList]="navbar">
+        <a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">About</a>
+        <a routerLink="/projects" routerLinkActive="active" ariaCurrentWhenActive="page">Projects</a>
+        <a routerLink="/languages" routerLinkActive="active" ariaCurrentWhenActive="page">Languages</a>
+        <a routerLink="/blog" routerLinkActive="active" ariaCurrentWhenActive="page">Blog</a>
+        <a routerLink="/games" routerLinkActive="active" ariaCurrentWhenActive="page">Games</a>
+    </nav>
+</header>
